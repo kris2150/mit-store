@@ -3595,3 +3595,14 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+.gradient {
+    background: var(--gradient-background);
+    background-attachment: fixed;
+    background-image: url(https://s3.amazonaws.com/merchtable-photos-production/misc_images/imgs/000/002/242/original/2C8A3141.jpg?1736876637) !important;
+    background-color: transparent !important;
+    background-position: top left !important;
+    background-size: cover !important;
+}
+
