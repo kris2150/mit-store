@@ -38,6 +38,128 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_FyGJqa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BjG8yd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/facebook-app-round-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.facebook.com/MitskiLeaks/"
+          }
+        },
+        "column_iC74jg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/instagram-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.instagram.com/mitskileaks/?hl=en"
+          }
+        },
+        "column_AHJxV7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/x-social-media-white-icon.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://x.com/mitskileaks?"
+          }
+        },
+        "column_nhjahT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tiktok-round-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.tiktok.com/@mitskileaks?lang=en"
+          }
+        },
+        "column_tRYACj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/soundcloud-white-icon.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://soundcloud.com/mitskiofficial"
+          }
+        },
+        "column_rPeC3b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/youtube-app-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://www.youtube.com/channel/UC-GjYlrAWIHgwNDnbFHZ77g"
+          }
+        },
+        "column_LR9xiK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bandcamp.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://mitski.bandcamp.com/music"
+          }
+        },
+        "column_raGEKp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/spotify-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK"
+          }
+        },
+        "column_n4qB8x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/spotify-white-icon.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK"
+          }
+        }
+      },
+      "block_order": [
+        "column_BjG8yd",
+        "column_iC74jg",
+        "column_AHJxV7",
+        "column_nhjahT",
+        "column_tRYACj",
+        "column_rPeC3b",
+        "column_LR9xiK",
+        "column_raGEKp",
+        "column_n4qB8x"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_QPmKfW": {
       "type": "rich-text",
       "blocks": {
@@ -71,6 +193,7 @@
   },
   "order": [
     "featured_collection",
+    "multicolumn_FyGJqa",
     "rich_text_QPmKfW"
   ]
 }
