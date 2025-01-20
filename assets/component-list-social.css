@@ -11,8 +11,8 @@
 }
 
 .list-social__item .icon {
-  height: 5rem;
-  width: 5rem;
+  height: 2.2rem;
+  width: 2.2rem;
 }
 
 .list-social__link {
@@ -24,7 +24,7 @@
 
 .utility-bar .list-social__link {
   padding: 0 0.8rem;
-  height: 3.8rem;
+  height: 50rem;
 }
 
 .list-social__link:hover .icon {
