@@ -1,0 +1,107 @@
+{% if section.settings.hero_banner_background != blank %}
+  <style>
+    .hero-banner-section { background: url({{ section.settings.hero_banner_background | img_url: 'master' }}) no-repeat; background-size: cover; background-position: center; }
+  </style>
+{% endif %}
+<div class="hero-banner-section">
+  <div class="page-width">
+    <div class="logo">
+      {% if section.settings.image != blank %}
+        <a href="/"><img src="{{ section.settings.image | img_url: 'master' }}" alt="Logo" title="Mitski"></a>
+      {% endif %}
+    </div>
+    <div class="hero-banner-content">
+      <div class="custom-signup-code">{{ section.settings.iframe }}</div>
+      <div class="social-icons">
+        <ul>
+          <li><a target="_blank" href="{{ section.settings.instagram }}">{% render 'instagram-icon' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.tiktok }}">{% render 'tiktok' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.facebook }}">{% render 'facebook' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.threads }}">{% render 'threads' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.twitter }}">{% render 'twitter' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.youtube }}">{% render 'youtube' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.spotify }}">{% render 'spotify' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.music }}">{% render 'music' %}</a></li>
+          <li><a target="_blank" href="{{ section.settings.laylo }}">{% render 'laylo' %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://embed.laylo.com/laylo-sdk.js"></script>
+{% schema %}
+{
+  "name": "Hero Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "hero_banner_background",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Logo"
+    },
+    {
+      "type": "liquid",
+      "id": "iframe",
+      "label": "Iframe Code"
+    },
+    {
+      "type": "header",
+      "content": "Social Icons Links"
+    },
+    {
+      "type": "url",
+      "id": "instagram",
+      "label": "Instagram"
+    },
+    {
+      "type": "url",
+      "id": "tiktok",
+      "label": "Tiktok"
+    },
+    {
+      "type": "url",
+      "id": "facebook",
+      "label": "Facebook"
+    },
+    {
+      "type": "url",
+      "id": "threads",
+      "label": "Threads"
+    },
+    {
+      "type": "url",
+      "id": "twitter",
+      "label": "Twitter"
+    },
+    {
+      "type": "url",
+      "id": "youtube",
+      "label": "You Tube"
+    },
+    {
+      "type": "url",
+      "id": "spotify",
+      "label": "Spotify"
+    },
+    {
+      "type": "url",
+      "id": "music",
+      "label": "Apple Music"
+    },
+    {
+      "type": "url",
+      "id": "laylo",
+      "label": "Laylo"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner"
+    }
+  ]
+}
+{% endschema %}
