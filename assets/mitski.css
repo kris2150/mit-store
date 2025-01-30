@@ -7,7 +7,7 @@ body.mitski {background-image: unset !important;}
 .hero-banner-section .social-icons ul svg path {fill: #ffffff;}
 .hero-banner-content { position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; width: 90%; max-width: max-content; }
 .hero-banner-section .page-width {padding: 0;}
-.hero-banner-section .logo {text-align: center;padding: 30px  0 0 0;}
+.hero-banner-section .logo {text-align: left;padding: 30px  0 0 0;}
 .hero-banner-section .logo img {max-width: 380px;}
 .hero-banner-section .social-icons ul a {line-height: 0;height: 100%;display: block;}
 /* End banner css here */
