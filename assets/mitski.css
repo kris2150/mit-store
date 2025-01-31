@@ -1,11 +1,11 @@
 /* Start banner css here */
-body.mitski {background-image: unset !important;}
+/* body.mitski {background-image: unset !important;} */
 .hero-banner-section {width: 100%; height: calc(100vh - 1px); position: relative; }
 .hero-banner-section .social-icons ul { list-style: none; display: flex ; flex-wrap: wrap; row-gap: 20px; justify-content: center; padding: 0; margin: 50px 0 0 0; }
 
 .hero-banner-section .social-icons ul svg { width: 2rem; height: 2.2rem; margin: 0 10px;}
 .hero-banner-section .social-icons ul svg path {fill: #ffffff;}
-.hero-banner-content { position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; width: 90%; max-width: max-content; }
+.hero-banner-content { position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; width: 90%; max-width: 900px; }
 .hero-banner-section .page-width {padding: 0;}
 .hero-banner-section .logo {text-align: left;padding: 30px  0 0 0;}
 .hero-banner-section .logo img {max-width: 380px;}

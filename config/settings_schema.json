@@ -1329,6 +1329,30 @@
       },
       {
         "type": "text",
+        "id": "social_threads_link",
+        "label": "Threads",
+        "placeholder": "https://www.threads.net"
+      },   
+       {
+        "type": "text",
+        "id": "social_spotify_link",
+        "label": "Spotify",
+        "placeholder": "https://open.spotify.com"
+      },
+      {
+        "type": "text",
+        "id": "social_applemusic_link",
+        "label": "Apple music",
+        "placeholder": "https://music.apple.com/us/artist/mitski/497546276"
+      },
+      {
+        "type": "text",
+        "id": "social_laylo_link",
+        "label": "Laylo",
+        "placeholder": "https://laylo.com/mitski"
+      },
+      {
+        "type": "text",
         "id": "social_tiktok_link",
         "label": "t:settings_schema.social-media.settings.social_tiktok_link.label",
         "placeholder": "t:settings_schema.social-media.settings.social_tiktok_link.info"
